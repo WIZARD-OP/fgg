@@ -7,7 +7,7 @@ client.config = config;
 // Init discord giveaways
 const { GiveawaysManager } = require('discord-giveaways');
 client.giveawaysManager = new GiveawaysManager(client, {
-    storage: "./database.json",
+    storage: "<@775244929479344180>",
     updateCountdownEvery: 3000,
     default: {
         botsCanWin: false,
